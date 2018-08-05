@@ -1,0 +1,55 @@
+.component-wrapper {
+  margin-bottom: 35px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.radio-label {
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  margin-bottom: 0;
+  padding: 0 30px;
+  position: relative;
+  vertical-align: bottom;
+
+  &:before,
+  &:after {
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #FFFFFF;
+  }
+
+  &:after {
+    border: 1px solid #EDEEEE;
+  }
+}
+
+input[type="radio"] {
+  display: none;
+
+  &:checked + label:before {
+    background-color: #F05B78;
+  }
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.value {
+  color: #EDEEEE;
+
+  &.minus {
+    color: red;
+  }
+}

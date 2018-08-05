@@ -1,0 +1,16 @@
+{
+  "name": "checkout-example",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "client": "cd client && npm start",
+    "dev": "concurrently --kill-others \"npm run client\" \"node server.js\"",
+    "postinstall": "cd client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  }
+}

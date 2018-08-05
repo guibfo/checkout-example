@@ -1,0 +1,22 @@
+.width-wrapper {
+  margin: 0 auto;
+  max-width: 360px;
+  padding: 0 10px;
+}
+
+.actions-wrapper {
+  border-top: 1px solid #F4F2F0;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.loading {
+  margin-top: 20vh;
+  text-align: center;
+}

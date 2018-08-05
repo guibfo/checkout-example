@@ -1,0 +1,50 @@
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 15px;
+  height: 48px;
+  vertical-align: middle;
+  border-radius: 3px 3px 4px 4px;
+  background: #ffffff;
+  border: 1px solid;
+  border-bottom-width: 3px;
+  outline: 0;
+  color: #F05B78;
+  line-height: 45px;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  transition: background 0.3s ease 0s, border-color 0.3s ease 0s, color 0.3s ease 0s, opacity 0.3s ease 0s;
+  width: 165px;
+}
+
+.confirm {
+  background-color: #F05B78;
+  border-color: #F05B78;
+  border-bottom-color: #D25069;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #F16984;
+    border-color: #F16984;
+    border-bottom-color: #D25069;
+  }
+
+  &:active {
+    border-bottom-color: #F05b78;
+    border-bottom-width: 1px;
+    transform: translateY(2px);
+  }
+}
+
+.cancel {
+  background-color: transparent;
+  border-color: #E4E1DF;
+  color: #F05B78;
+
+  &:active {
+    border-bottom-color: #E4E1DF;
+    border-bottom-width: 1px;
+    transform: translateY(2px);
+  }
+}

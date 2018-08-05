@@ -1,0 +1,32 @@
+.modal {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #000000;
+  width: 290px;
+  left: calc(50% - 145px);
+  padding: 25px 35px;
+  position: fixed;
+  text-align: center;
+  top: 30%;
+  transition: all 0.3s ease-out;
+  z-index: 500;
+}
+
+.modal-icon {
+  width: 26px;
+}
+
+.label {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.info {
+  color: #7D7A77;
+  font-size: 14px;
+
+  &.cancel {
+    padding: 0 18px;
+  }
+}
