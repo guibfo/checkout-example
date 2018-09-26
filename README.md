@@ -18,7 +18,7 @@ npm run dev
 
 This will run the client on http://localhost:3000 and the Expresss server on http://localhost:5000
 
-The client is already proxied to the server
+The client is already proxified to the server
 
 ### Implementation details
 
