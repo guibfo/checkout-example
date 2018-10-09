@@ -1,6 +1,8 @@
 # Checkout Example
 
-This is a test application using an Express server to serve some API endpoints for products, cupons and checkout informations in order to build a simple checkout summary screen.
+A checkout summary screen built with React.
+
+Products, cupons and checkout information are being served from the Express server.
 
 ## Usage
 
@@ -18,7 +20,9 @@ npm run dev
 
 This will run the client on http://localhost:3000 and the Expresss server on http://localhost:5000
 
-The client is already proxified to the server
+The client is already proxified to the server.
+
+## The challenge
 
 ### Implementation details
 
